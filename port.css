@@ -29,13 +29,8 @@ body {
   position: absolute;
 }
 .parallax {
-  /* The image used */
-  background-image: url("");
-
-  /* Set a specific height */
+  background-image: linear-gradient(rgba(0,0,0,0.75), rgba(42, 4, 4, 0.75)), url(prlx.jpg); 
   min-height: 500px; 
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
